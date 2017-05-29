@@ -1618,6 +1618,8 @@
 				font-size: 12pt;
 			}
 
+			#one .inner { text-align: center; } 
+
 		}
 
 		@media screen and (max-width: 736px) {
