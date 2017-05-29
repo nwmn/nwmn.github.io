@@ -1559,6 +1559,8 @@
 		-ms-overflow-style: scrollbar;
 	}
 
+
+
 	@media screen and (max-width: 480px) {
 
 		html, body {
@@ -1932,7 +1934,8 @@
 			}
 
 		.flex.flex-4 .box {
-			width: 21%;
+			/*width: 21%;*/
+			width: 100%;
 		}
 
 		@media screen and (max-width: 980px) {
@@ -2191,6 +2194,11 @@
 		padding: 1.5em;
 	}
 
+	.box:hover {
+		background-color: rgba(255, 255, 255, 0.25);
+		color: #FFF;
+	}
+
 		.box > :last-child,
 		.box > :last-child > :last-child,
 		.box > :last-child > :last-child > :last-child {
@@ -2219,6 +2227,13 @@
 				.box.person .image img {
 					max-width: 100%;
 				}
+
+				.box.person .small img {
+					max-width: 90%;
+					max-height: 90%;
+					margin: auto;
+				}
+
 
 				.bump {
 					margin-top: 50px;
@@ -3088,4 +3103,17 @@
 			text-align: center;
 		}
 
+	}
+
+	#two a {
+		display: block;
+		padding: 0px;
+		margin: 0px;
+		color: rgba(255,255,255,0.25);
+		text-decoration: none; 
+	}
+
+	.linkwrap {
+		width: 21%;
+		color: rgba(255,255,255,0.25);
 	}
