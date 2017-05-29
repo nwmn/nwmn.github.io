@@ -1,2 +1,0 @@
-# nwmn.github.io
-site
