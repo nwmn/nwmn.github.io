@@ -2566,8 +2566,7 @@
 		text-decoration: none;
 		white-space: nowrap;
 		padding: 0px;
-		width: 320px;
-		margin: auto;
+		width: 85%;
 	}
 
 		input[type="submit"]:hover,
@@ -2715,8 +2714,12 @@
 			}
 
 		}
-
 /* Header */
+
+	img.logo {
+		max-width: 15%;
+		min-width: 10%; 
+	}
 
 	.subpage {
 		padding-top: 44px;
