@@ -1618,7 +1618,7 @@
 				font-size: 12pt;
 			}
 
-			#one .inner { text-align: center; } 
+			#one .inner { text-align: center; }
 
 		}
 
@@ -1627,6 +1627,7 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
+
 
 		}
 
@@ -2812,6 +2813,8 @@
 					#header a.navPanelToggle {
 						display: inline-block;
 					}
+
+					#banner .nudge { margin-top: 0px; }
 
 				}
 
