@@ -1567,6 +1567,10 @@
 
 	}
 
+	* {
+		outline: none; 
+	}
+
 	body {
 		background: #fff;
 	}
@@ -2717,8 +2721,12 @@
 /* Header */
 
 	img.logo {
+		min-width: 15%;
 		max-width: 15%;
-		min-width: 10%;
+	}
+
+	#banner .nudge {
+		margin-top: 80px;
 	}
 
 	.subpage {
@@ -2963,7 +2971,7 @@
 		}
 
 		#banner p {
-			font-size: 1em;
+			font-size: 1.5em;
 			color: rgba(255, 255, 255, 0.55);
 			margin-bottom: 1.75em;
 		}
