@@ -1990,7 +1990,6 @@
 				padding-top: 0px;
 			}
 
-
 		}
 
 		@media screen and (max-width: 480px) {
@@ -3046,22 +3045,6 @@
 				background-attachment: scroll;
 			}
 
-			#two .asucd img {
-				max-width: 40%;
-				padding-top: 0px;
-				margin-top: 0px;
-			}
-
-			#two .asucd {
-				padding-top: 25px;
-				margin-top: 0px;
-			}
-
-			#two .qsu {
-				padding-top: 20px;
-				margin-top: 0px;
-			}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3084,11 +3067,6 @@
 
 			#banner {
 				padding: 6em 1.5em 4em 1.5em;
-			}
-
-			#two .qsu {
-				padding-top: 40px;
-				margin-top: 20px;
 			}
 
 		}
@@ -3166,13 +3144,3 @@
 		width: 21%;
 		color: rgba(255,255,255,0.25);
 	}
-
-#two .asucd img {
-	max-width: 50%;
-	padding-top: 0px;
-	margin-top: -40px;
-}
-
-#two .qsu {
-	padding-top: 30px;
-}
