@@ -1818,6 +1818,10 @@
 			color: #bacee6;
 		}
 
+		#two {
+			background-color: rgba(83, 133, 193, 0.6);
+		}
+
 			section.wrapper.style1 header h2, article.wrapper.style1 header h2 {
 				color: #fff;
 			}
@@ -1925,7 +1929,7 @@
 				height: 100%;
 				right: -2em;
 				top: 0;
-				border-right: 1px solid #dbdbdb;
+				border-right: 1px solid rgba(219, 219, 219, 0.4);
 				pointer-events: none;
 			}
 
@@ -2226,6 +2230,12 @@
 		color: #FFF;
 	}
 
+	.box:active {
+		background-color: rgba(0, 0, 0, 0.25);
+		color: #FFF;
+	}
+
+
 		.box > :last-child,
 		.box > :last-child > :last-child,
 		.box > :last-child > :last-child > :last-child {
@@ -2359,7 +2369,7 @@
 
 	ul {
 		list-style: disc;
-		margin: 0 0 2em 0;
+		margin: -25px 0 2em 0;
 		padding-left: 1em;
 	}
 
@@ -2398,7 +2408,7 @@
 				}
 
 				ul.icons li .icon:before {
-					font-size: 3em;
+					font-size: 4em;
 				}
 
 		ul.actions {
@@ -2999,13 +3009,22 @@
 
 	#banner {
 		padding: 12em 0 10em 0;
+		/*background-image: url('../../images/ocean.jpg');
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+		background-repeat: no-repeat;*/
+		text-align: center;
+		border-top: 0.5em solid #5385c1;
+		background: none;
+	}
+
+	body {
 		background-image: url('../../images/ocean.jpg');
 		background-size: cover;
 		background-position: bottom;
 		background-attachment: fixed;
 		background-repeat: no-repeat;
-		text-align: center;
-		border-top: 0.5em solid #5385c1;
 	}
 
 		#banner h1 {
@@ -3074,26 +3093,34 @@
 /* Footer */
 
 
+footer {
+	background-color: rgba(255,255,255,0.5);
+}
+
+#one footer {
+	background-color: transparent;
+}
+
+
 	#footer .inner {
-		border-top: 1px solid #dbdbdb;
 		padding-top: 3em;
 	}
 
 	#footer .copyright {
-		color: #bbb;
+		color: rgba(255,255,255,0.7);
 		font-size: 0.8em;
 		margin: 0 0 2em 0;
 		padding: 0;
 	}
 
 		#footer .copyright a {
-			color: #bbb;
+			color: rgba(255,255,255,0.7);
 			text-decoration: none;
 		}
 
 			#footer .copyright a:hover {
-				color: #bbb;
-				text-decoration: underline;
+				color: rgba(255,255,255,0.7);
+				font-weight: bold;
 			}
 
 	#footer ul.icons li .icon {
@@ -3132,6 +3159,14 @@
 
 	}
 
+	#one {
+		background-color: rgba(255,255,255,0.4);
+	}
+
+	#one p {
+		color: rgba(255,255,255,0.7);
+	}
+
 	#two a {
 		display: block;
 		padding: 0px;
@@ -3140,7 +3175,21 @@
 		text-decoration: none;
 	}
 
+	#one h3 {
+		font-size: 1.5rem;
+		font-weight: bold;
+		color: rgba(33, 87, 147,0.7);
+	}
+
 	.linkwrap {
 		width: 21%;
 		color: rgba(255,255,255,0.25);
+	}
+
+	.icons a:hover {
+		color: rgba(255,255,255,0.5);
+	}
+
+	.icons a:active {
+		color: rgba(0,0,0,0.5);
 	}
