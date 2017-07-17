@@ -377,10 +377,237 @@ li {
       padding: 5px;
     }
 
+/*
+    .box:active {
+      background-color: rgba(255, 255, 255, 0.25);
+      color: #FFF;
+    }
+
+    article a:active {
+      background-color: rgba(255, 255, 255, 0.5);
+      color: #FFF;
+    }
+*/
+
   }
 
     @media screen and (min-width: 695px) and (max-width: 1399px) {
       .activities article {
         padding-left: 10%;
       }
+    }
+
+
+
+
+    /* ----------- iPhone 4 and 4S ----------- */
+
+    /* Portrait and Landscape */
+    @media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 480px)
+      and (-webkit-min-device-pixel-ratio: 2) {
+        .box:active {
+          background-color: rgba(255, 255, 255, 0.25);
+          color: #FFF;
+        }
+
+        article a:active {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: #FFF;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 480px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+        .box:active {
+          background-color: rgba(255, 255, 255, 0.25);
+          color: #FFF;
+        }
+
+        article a:active {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: #FFF;
+        }
+
+    }
+
+    /* Landscape */
+    @media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 480px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) {
+        .box:active {
+          background-color: rgba(255, 255, 255, 0.25);
+          color: #FFF;
+        }
+
+        article a:active {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: #FFF;
+        }
+    }
+
+    /* ----------- iPhone 5 and 5S ----------- */
+
+    /* Portrait and Landscape */
+    @media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2) {
+        .box:active {
+          background-color: rgba(255, 255, 255, 0.25);
+          color: #FFF;
+        }
+
+        article a:active {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: #FFF;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+        .box:active {
+          background-color: rgba(255, 255, 255, 0.25);
+          color: #FFF;
+        }
+
+        article a:active {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: #FFF;
+        }
+    }
+
+    /* Landscape */
+    @media only screen
+      and (min-device-width: 320px)
+      and (max-device-width: 568px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) {
+        .box:active {
+          background-color: rgba(255, 255, 255, 0.25);
+          color: #FFF;
+        }
+
+        article a:active {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: #FFF;
+        }
+
+    }
+
+    /* ----------- iPhone 6 ----------- */
+
+    /* Portrait and Landscape */
+    @media only screen
+      and (min-device-width: 375px)
+      and (max-device-width: 667px)
+      and (-webkit-min-device-pixel-ratio: 2) {
+
+        .box:active {
+          background-color: rgba(255, 255, 255, 0.25);
+          color: #FFF;
+        }
+
+        article a:active {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: #FFF;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+      and (min-device-width: 375px)
+      and (max-device-width: 667px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+
+        .box:active {
+          background-color: rgba(255, 255, 255, 0.25);
+          color: #FFF;
+        }
+
+        article a:active {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: #FFF;
+        }
+
+    }
+
+    /* Landscape */
+    @media only screen
+      and (min-device-width: 375px)
+      and (max-device-width: 667px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) {
+        .box:active {
+          background-color: rgba(255, 255, 255, 0.25);
+          color: #FFF;
+        }
+
+        article a:active {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: #FFF;
+        }
+    }
+
+    /* ----------- iPhone 6+ ----------- */
+
+    /* Portrait and Landscape */
+    @media only screen
+      and (min-device-width: 414px)
+      and (max-device-width: 736px)
+      and (-webkit-min-device-pixel-ratio: 3) {
+
+        .box:active {
+          background-color: rgba(255, 255, 255, 0.25);
+          color: #FFF;
+        }
+
+        article a:active {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: #FFF;
+        }
+
+    }
+
+    /* Portrait */
+    @media only screen
+      and (min-device-width: 414px)
+      and (max-device-width: 736px)
+      and (-webkit-min-device-pixel-ratio: 3)
+      and (orientation: portrait) {
+
+        .box:active {
+          background-color: rgba(255, 255, 255, 0.25);
+          color: #FFF;
+        }
+
+        article a:active {
+          background-color: rgba(255, 255, 255, 0.5);
+          color: #FFF;
+        }
+    
+    }
+
+    /* Landscape */
+    @media only screen
+      and (min-device-width: 414px)
+      and (max-device-width: 736px)
+      and (-webkit-min-device-pixel-ratio: 3)
+      and (orientation: landscape) {
+
     }
