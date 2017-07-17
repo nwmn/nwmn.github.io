@@ -377,12 +377,12 @@ li {
       padding: 5px;
     }
 
-    .box:active {
+    .box:focus {
       background-color: rgba(255, 255, 255, 0.25);
       color: #FFF;
     }
 
-    article a:active {
+    article a:focus {
       background-color: rgba(255, 255, 255, 0.5);
       color: #FFF;
     }
