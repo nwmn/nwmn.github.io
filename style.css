@@ -336,6 +336,10 @@ li {
       height: 900px;
     }
 
+    .header {
+      height: 100vh;
+    }
+
     .overlay article p {
       font-size: 10pt;
     }
