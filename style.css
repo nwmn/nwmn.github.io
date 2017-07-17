@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-  height: 60vh;
+  height: 72vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -126,7 +126,7 @@ article a:active {
 
 .activities {
   text-align: center;
-  background-color: rgba(83, 133, 193, 0.6);
+  background-color: rgba(83, 133, 193, 0.5);
   height: 600px;
 }
 
@@ -379,5 +379,10 @@ li {
       padding: 5px;
     }
 
-
   }
+
+    @media screen and (min-width: 695px) and (max-width: 1399px) {
+      .activities article {
+        padding-left: 10%;
+      }
+    }
