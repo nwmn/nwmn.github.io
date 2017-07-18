@@ -469,8 +469,17 @@ li {
 
   }
 
-    @media screen and (min-width: 695px) and (max-width: 1399px) {
-      .activities article {
+    @media screen and (min-width: 1000px) and (max-width: 1399px) {
+       article {
+        padding-left: 20%;
+        padding-right: 20%;
+      }
+    }
+
+
+    @media screen and (min-width: 550px) and (max-width: 999px) {
+       article {
         padding-left: 10%;
+        padding-right: 10%;
       }
     }
