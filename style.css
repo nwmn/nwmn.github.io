@@ -357,6 +357,13 @@ li {
     padding: 0px 75px 15px 75px;
   }
 
+  .scroll {
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 25px;
+  }
+
+
 }
 
 @media screen and (max-width: 1285px) {
