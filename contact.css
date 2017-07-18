@@ -15,7 +15,15 @@
   padding-bottom: 50px;
 }
 
-.container h2 { text-transform: uppercase; }
+.container h2 {
+  text-transform: uppercase;
+  padding-bottom: 10px;
+ }
+
+ .container .center:first-of-type {
+   padding-bottom: 10px;
+  }
+
 
 .titles {
   display: block;
@@ -104,12 +112,15 @@ a.info:active {
 
 footer {
   position: fixed;
-  width: 100%;
+  height: 75px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  padding-top: 15px;
 }
 
-footer .linkz {
-  margin-top: 15px;
-  font-size: 10pt;
+footer .icons {
+  font-size: 20pt;
 }
 
 footer .copyright {
