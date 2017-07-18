@@ -206,7 +206,7 @@ article a:active {
 }
 
 .box {
-  width: calc(100% - 25px);
+  width: calc(100% - 10px);
   border: solid 1px #dbdbdb;
   margin-bottom: 2em;
   padding: 1.5em;
@@ -357,19 +357,19 @@ li {
     padding: 0px 75px 15px 75px;
   }
 
-  .scroll {
-    width: 100px;
-    padding: 5px 15px;
-    border-radius: 25px;
-  }
-
-
 }
 
 @media screen and (max-width: 1285px) {
   .overlay {
     height: 900px;
   }
+
+  .scroll {
+    width: 100px;
+    padding: 5px 15px;
+    border-radius: 25px;
+  }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -392,10 +392,6 @@ li {
     width: 400px;
   }
 
-}
-
-@media screen and (max-width: 650px) {
-
   .header h3{
     font-size: 12pt;
   }
@@ -404,8 +400,13 @@ li {
     font-size: 20pt;
   }
 
-}
+  .scroll {
+    width: 100px;
+    padding: 1px 5px;
+    border-radius: 10px;
+  }
 
+}
 
   @media screen and (max-width: 500px) {
     .overlay {
