@@ -408,7 +408,7 @@ li {
 
 }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     .overlay {
       height: 900px;
     }
