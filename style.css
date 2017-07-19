@@ -470,6 +470,21 @@ li {
 
   }
 
+  @media screen and (max-width: 322px) {
+    .overlay {
+        height: 1000px;
+      }
+      footer .copyright{
+        font-size: 4vw;
+      }
+
+      footer .linkz {
+        padding-right: 0px; 
+      }
+
+    }
+
+
     @media screen and (min-width: 1000px) and (max-width: 1399px) {
        article {
         padding-left: 20%;
