@@ -408,7 +408,7 @@ li {
 
 }
 
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     .overlay {
       height: 900px;
     }
@@ -470,10 +470,18 @@ li {
 
   }
 
-  @media screen and (max-width: 322px) { 
+  @media screen and (max-width: 322px) {
     .overlay {
         height: 1000px;
       }
+      footer .copyright{
+        font-size: 4vw;
+      }
+
+      footer .linkz {
+        padding-right: 0px; 
+      }
+
     }
 
 

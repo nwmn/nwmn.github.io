@@ -126,3 +126,9 @@ footer .icons {
 footer .copyright {
   margin-top: -1.5px;
 }
+
+@media screen and (max-width: 550px) {
+    footer .linkz {
+      margin-top: 10px;
+    }
+}
