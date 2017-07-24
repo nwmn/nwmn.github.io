@@ -398,11 +398,6 @@ li {
 
 @media screen and (max-width: 900px) {
 
-  .overlay {
-    height: 1200px;
-  }
-
-
   nav {
     display: none;
   }
