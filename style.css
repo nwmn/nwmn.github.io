@@ -433,6 +433,13 @@ li {
 
 }
 
+@media screen and (max-width: 881px) {
+  .linkwrap:last-of-type {
+    margin-bottom: 50px;
+  }
+
+}
+
   @media screen and (max-width: 550px) {
 
     .header {
@@ -490,6 +497,9 @@ li {
       color: #FFF;
     }
 
+    .linkwrap:last-of-type {
+      margin-bottom: 50px;
+    }
   }
 
   @media screen and (max-width: 322px) {
@@ -501,13 +511,20 @@ li {
       footer .linkz {
         padding-right: 0px;
       }
-
     }
+
+
 
     @media screen and (max-width: 350px) {
       #skills {
         height: 1200px;
       }
+
+      .linkwrap:last-of-type {
+        margin-bottom: 50px;
+      }
+
+
     }
 
 
@@ -517,6 +534,7 @@ li {
         padding-left: 20%;
         padding-right: 20%;
       }
+
     }
 
 
