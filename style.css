@@ -356,6 +356,10 @@ li {
   padding-left: 15px;
 }
 
+a.mobile {
+  display: none;
+}
+
 
 @media screen and (max-width: 1400px) {
   .overlay {
@@ -499,6 +503,25 @@ li {
 
     .linkwrap:last-of-type {
       margin-bottom: 50px;
+    }
+
+    a.mobile {
+      display: inline;
+      color: rgba(255,255,255,0.5);
+    }
+
+    a.mobile:hover {
+      display: inline;
+      color: rgba(255,255,255,0.7);
+    }
+
+    a.mobile:active {
+      display: inline;
+      color: rgba(0,0,0,0.7); 
+    }
+
+    span.nonMobile {
+      display: none;
     }
   }
 
