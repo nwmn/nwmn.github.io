@@ -127,6 +127,11 @@ footer .copyright {
   margin-top: -1.5px;
 }
 
+
+@media screen and (max-width: 1000px) { 
+  footer { display: none; }
+}
+
 @media screen and (max-width: 550px) {
     footer .linkz {
       margin-top: 10px;

@@ -359,7 +359,7 @@ footer {
   color: rgba(255,255,255,0.3);
 }
 
-.linkz a:hover {
+.linkz a:hover, a:focus {
   color: rgba(255,255,255,0.7);
 }
 
